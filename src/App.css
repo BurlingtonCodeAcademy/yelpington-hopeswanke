@@ -1,38 +1,81 @@
-.App {
+
+/*------------------------- Page Styling ------------------------*/
+/* whole page */
+body{
+  background-color: rgb(74, 138, 74);
+}
+/* title */
+#title{
+  text-align: center;
+  font-size: 60px;
+  background-color: rgb(117, 143, 117);
+  margin-bottom: 5px;
+}
+/* title hover change color */
+#title:hover{
+  color: bisque;
+}
+/* nav bar */
+#rest-list{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(202, 235, 205);
+  margin-bottom: 15px;
+  border-top: 5px black solid;
+  border-bottom: 5px black solid;
+}
+/* hover change color nav bar*/
+.restaurant:hover{
+  background-color: white;
+  color: royalblue;
+}
+/* map and description sidebar */
+#main-body{
+  display: flex;
+}
+/* map layout */
+#map{
+  margin-left: 50px;
+  margin-bottom: 50px;
+  width: 90vw;
+  height: 80vh;
+  border: 5px white solid;
+  
+}
+
+/*------------------------- Citizen Styling ------------------------*/
+#citizen{
+  color: rgb(124, 79, 79);
+  background-color: rosybrown;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*------------------------- Farmhouse Styling ------------------------*/
+#farmhouse{
+  color: brown;
+  background-color: burlywood;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*------------------------- Gaku Styling ------------------------*/
+#gaku{
+  color: red;
+  background-color:white;
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*------------------------- Honey Road Styling ------------------------*/
+#honey{
+  color:palevioletred;
+  background-color: bisque;
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+/*------------------------- Leunigs Styling ------------------------*/
+#leunigs{
+  color: violet;
+  background-color: rgb(113, 104, 88);
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*------------------------- Skinny P Styling ------------------------*/
+#skinny{
+  color: rgb(50, 46, 23);
+  background-color: rgb(255, 228, 78);
+  text-align: center;
 }
